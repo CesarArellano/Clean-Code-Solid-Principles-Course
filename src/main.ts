@@ -1,10 +1,9 @@
-import './style.css'
+import "./style.css";
 
-import './clean-code/07-homework'
-const app = document.querySelector<HTMLDivElement>('#app')!
+import "./code-smells/01-singleton";
+const app = document.querySelector<HTMLDivElement>("#app")!;
 
 app.innerHTML = `
   <h1>CleanCode y SOLID</h1>
-  <span>Revisar la consola de JavaScript</span>
-`
-
+  <span>Check the Javascript's console</span>
+`;

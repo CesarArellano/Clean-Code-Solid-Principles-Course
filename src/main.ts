@@ -1,6 +1,6 @@
 import "./style.css";
 
-import "./code-smells/01-singleton";
+import "./solid/03-liskov-a";
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
 app.innerHTML = `
